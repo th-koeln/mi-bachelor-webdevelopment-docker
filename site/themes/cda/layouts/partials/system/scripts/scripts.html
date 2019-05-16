@@ -1,0 +1,4 @@
+<script src="{{.Site.BaseURL}}/libs/bulmajs/tabs.js"></script>
+{{ $js := index .Site.Data.js.hash "main.js" }}
+<script src="{{ print "js/" $js  | absURL  }}"></script>
+<!--script src="{{ .Site.BaseURL}}/libs/prism/prism.js"></script-->

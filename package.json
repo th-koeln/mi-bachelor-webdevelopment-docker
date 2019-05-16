@@ -1,0 +1,16 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "Docker Playground for Hugo SPB",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sh ./scripts/build.sh",
+    "start": "sh ./scripts/run.sh",
+    "stop": "sh ./scripts/stop.sh",
+    "remove": "sh ./scripts/remove.sh",
+    "gulp": "cd site && gulp"
+  },
+  "author": "Christian Noss",
+  "license": "ISC"
+}

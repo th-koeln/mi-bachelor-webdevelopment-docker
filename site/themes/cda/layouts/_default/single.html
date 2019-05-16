@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="container">
+  <div class="columns">
+    <div class="column">
+      {{ partial "m/cda-img-holder/cda-img-holder.html" (dict "src" .Params.Img)}}
+    </div>
+    <div class="column">
+      <h1 class="title">{{ .Title }}</h1>
+      <h2 class="subtitle">{{.Params.Zuschreibung}}</h2>
+
+      <div class="content">
+        {{.Params.Longtext}}
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+{{ end }}

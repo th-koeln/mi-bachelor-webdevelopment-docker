@@ -1,0 +1,10 @@
+{{ $scratch := newScratch }}
+{{ $scratch.Set "src" "http://via.placeholder.com/400x700" }}
+{{ if .src }}
+{{ $scratch.Set "src" .src }}
+{{ end }}
+{{ $src := $scratch.Get "src" }}
+
+<figure class="image cda-img-holder">
+  <img src="{{$src}}">
+</figure>

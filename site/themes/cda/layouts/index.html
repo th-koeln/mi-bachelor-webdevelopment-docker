@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ $params := . }}
+{{ $scratch := newScratch }}
+<div class="container is-fluid">
+  <div class="columns is-multiline">
+    {{ range $item := .Site.Data.cdaGraphicsVirtualObjects }}
+
+    <div class="column is-one-third-desktop is-one-quarter-widescreen is-half-tablet">
+      <div class="card bm--card-equal-height">
+        <div class="card-image">
+          <a href="graphics/{{$item.Link}}">
+            <figure class="image is-4by3">
+              <img src="http://lorempixel.com/600/400/abstract/?random{{ shuffle (seq 1 500) }}"
+                alt="Placeholder image">
+            </figure>
+          </a>
+        </div>
+        <div class="card-content">
+          <div class="media">
+
+            <div class="media-content">
+              <h2 class="title is-6">{{$item.Title.de}}<br></h2>
+              {{ if gt $item.Dated 0 }}
+              <p>{{$item.Dated}}</p>
+              {{end}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{ end }}
+  </div>
+</div>
+{{ end }}

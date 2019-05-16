@@ -8,6 +8,7 @@
     "dh-build": "sh ./scripts/build.sh",
     "dh-serve": "sh ./scripts/run.sh",
     "dh-remove": "sh ./scripts/remove.sh",
+    "gulp-install": "cd site && npm install",
     "gulp": "cd site && gulp"
   },
   "author": "Christian Noss",

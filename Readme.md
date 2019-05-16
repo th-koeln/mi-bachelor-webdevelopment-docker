@@ -30,13 +30,13 @@ cd mi-bachelor-webdevelopment-docker
 `npm install`
 
 ### Docker Container bauen
-`npm run build`
+`npm run dh-build`
 
 ### Docker Container starten
-`npm start`
+`npm run dh-serve`
 
 ### Docker Container löschen
-`npm run remove`
+`npm run dh-remove`
 
 ## Development
 

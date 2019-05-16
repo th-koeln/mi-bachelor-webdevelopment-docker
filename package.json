@@ -2,7 +2,7 @@
   "name": "docker",
   "version": "1.0.0",
   "description": "Docker Playground for Hugo SPB",
-  
+  "repository": "git@github.com:th-koeln/mi-bachelor-webdevelopment-docker.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sh ./scripts/build.sh",

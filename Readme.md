@@ -21,10 +21,12 @@ Damit der ganze Spaß läuft, müssen auf der Maschine folgende Komponenten vorh
 - [Docker](https://www.docker.com/get-started)
 
 ### Repo clonen 
-git clone 
+<pre>
+git clone git@github.com:th-koeln/mi-bachelor-webdevelopment-docker.git
 cd mi-bachelor-webdevelopment-docker
+</pre>
 
-### NPM installieren
+### ggf. NPM installieren
 `npm install`
 
 ### Docker Container bauen

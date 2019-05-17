@@ -62,5 +62,3 @@ Taskrunner im Watchmode laufen lassen via
     /patternlab/* . Templates zur Darstellung der PatternLib
     /shortcodes/* . Templates die in Markdown Files eingesetzt werden können
 </pre>
-
-

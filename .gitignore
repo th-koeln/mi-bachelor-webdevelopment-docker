@@ -4,6 +4,5 @@
 node_modules/
 site/node_modules/
 
-# ausgespielte Inhalte
+# Ausgespielte Inhalte
 site/docs/
-

@@ -1,4 +1,4 @@
 #!/bin/bash
-. config.cfg
+. ./config.cfg
 
 docker stop ${container}

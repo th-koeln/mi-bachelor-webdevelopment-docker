@@ -1,4 +1,4 @@
 #!/bin/bash
-. config.cfg
+. ./config.cfg
 
-docker build -t ${container} $(pwd)
+docker build -t ${image} $(pwd)

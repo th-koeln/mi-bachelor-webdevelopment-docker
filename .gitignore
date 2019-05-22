@@ -6,3 +6,6 @@ site/node_modules/
 
 # Ausgespielte Inhalte
 site/docs/
+
+# IntelliJ
+.idea

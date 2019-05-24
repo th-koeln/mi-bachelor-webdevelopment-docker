@@ -1,3 +1,5 @@
+# Für weitere Infos: https://docs.docker.com/engine/reference/builder/ oder fragt uns!
+
 # debian als base image
 
 # Configuration ENV variables
